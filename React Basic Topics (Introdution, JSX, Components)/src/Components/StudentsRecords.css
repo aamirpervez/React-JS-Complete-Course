@@ -1,0 +1,46 @@
+.student_number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+  padding: 0.5rem;
+  margin: 1rem 0;
+  /* border-radius: 12px; */
+  background-color: #4b4b4b;
+  color: white;
+}
+
+.student_fullname {
+  display: contents;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+  font-size: 24px;
+}
+
+.student_details {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+@media (min-width: 580px) {
+  .student_fullname {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .student_details {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
