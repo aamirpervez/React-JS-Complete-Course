@@ -1,0 +1,59 @@
+.create__student__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 500px;
+  margin: auto;
+}
+
+.create__student_control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.create__student_control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.create__students__action {
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 125px;
+}
+
+.create__students__action button {
+  font: inherit;
+  cursor: pointer;
+  width: 250px;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: yellow;
+  color: black;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.create__students__action button:hover,
+.create__students__action button:active {
+  background-color: rgb(199, 199, 90);
+  border-color: #510674;
+}
+
+.create__students__action button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.create__students__action button.alternative:hover,
+.create__students__action button.alternative:active {
+  background-color: #ddb3f8;
+}
