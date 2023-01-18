@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.employee {
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 25%;
+  margin-top: 20px;
+}
+
+.employee h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.createEmployee {
+  margin: auto;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 35%;
+}
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 3px solid #eccf77;
+  color: white;
+  padding: 0.75rem 3rem;
+  border-radius: 20px;
+  margin-left: 3px;
+  margin-top: 15px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #654b88;
+  border-color: #eccf77;
+}
