@@ -1,0 +1,9 @@
+.divpanel {
+  box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: solid 1px;
+  width: 20%;
+  justify-content: center;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
