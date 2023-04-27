@@ -21,4 +21,16 @@ describe("Hello Component..", () => {
     const outputElement = screen.getByText("It's good to see you!");
     expect(outputElement).toBeInTheDocument();
   });
+
+  test('renders "Changed!" if the button was clicked', async () => {
+    // Arrange
+    render(<Hello />);
+
+    //Act
+    userEvent.click(screen.getByRole("button"));
+
+    //Assert
+    const outputElement = await screen.getByText("Changed!");
+    expect(outputElement).toBeInTheDocument();
+  });
 });
