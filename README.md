@@ -4,5 +4,7 @@ Command : npm install
 
 That's it, enjoy working on it. ;-)
 
+All the slides are shared in Presentations Folder. :-)
+
 If any help needed :  aamirpervez27@gmail.com
 
